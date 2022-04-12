@@ -1,0 +1,74 @@
+body{
+    
+    height: 80%;
+    background-color: #333;
+    color:#fff;
+    font-size: 24px;
+    font-family: arial;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    border:2px solid #020002;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    color:rgba(238, 238, 238, 0.713);
+    font-size: 24px;
+    margin-bottom: 10px
+}
+
+#atributos{
+    height: 40px;
+    width: 240px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:#333;
+    text-align: center;
+}
+
+
+.forca{
+    background-color: #ff4e02;
+}
+
+.agilidade{
+    background-color: #0be004; 
+}
+
+.sorte{
+    background-color: #02eeff; 
+}
+
+.inteligencia{
+    background-color: #7002ff;
+}
+
+.constituicao{
+    background-color: #ff0202;   
+}
+
+.forca:hover{
+    opacity: 0.8;
+}
+.agilidade:hover{
+    opacity: 0.8;
+}
+.sorte:hover{
+    opacity: 0.8;
+}
+.inteligencia:hover{
+    opacity: 0.8;
+}
+.constituicao:hover{
+    opacity: 0.8;
+}
